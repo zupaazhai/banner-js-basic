@@ -21,6 +21,7 @@ box.style.width = '400px'
 box.style.height = '400px'
 box.style.backgroundColor = 'red'
 ```
+
 ## Custom Event
 ```Javascript
 // Create custom event
@@ -37,6 +38,7 @@ window.addEventListener('launch-rocket', function (e) {
   console.log(e.detail)
 })
 ```
+
 ## Handle class
 https://developer.mozilla.org/en-US/docs/Web/API/Element/classList
 ```Javascript
@@ -54,4 +56,26 @@ box.classList.remove('bg-red')
 if (box.classList.contains('bg-red')) {
   ....
 }
+```
+
+## GET data from external source
+```Javascript
+// Old way
+var req = new XMLHttpRequest()
+req.open('GET', '/my/url', true);
+req.onload = function () {
+  if (this.status >= 200 && this.status < 400) {
+    // Success!
+    var data = JSON.parse(this.response);
+  } else {
+    // We reached our target server, but it returned an error
+
+  }
+}
+req.send()
+
+// Fetch API way
+fetch('http://example.com/movies.json')
+  .then(response => response.json())
+  .then(data => console.log(data));
 ```
