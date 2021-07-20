@@ -124,7 +124,7 @@ emojies = emojies.map(function (emoji) {
 
 ```
 ### .findIndex
-```
+```Javascript
 var emojies = ['😃', '❤️', '🍿', '🚸']
 
 var index = emojies.findIndex(function (emoji) {
