@@ -123,3 +123,13 @@ emojies = emojies.map(function (emoji) {
 // emojies = [ "😃😇", "❤️😇", "🍿😇", "🚸😇" ]
 
 ```
+### .findIndex
+```
+var emojies = ['😃', '❤️', '🍿', '🚸']
+
+var index = emojies.findIndex(function (emoji) {
+  return emoji == '❤️'
+})
+
+// index = 1
+```
