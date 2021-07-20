@@ -15,3 +15,6 @@ https://github.com/zupaazhai/banner-js-basic/blob/main/get-post.md
 
 ## Array manipulation
 https://github.com/zupaazhai/banner-js-basic/blob/main/array.md
+
+## Date
+https://github.com/zupaazhai/banner-js-basic/blob/main/date.md
