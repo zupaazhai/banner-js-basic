@@ -133,3 +133,5 @@ var index = emojies.findIndex(function (emoji) {
 
 // index = 1
 ```
+other array functions
+https://www.freecodecamp.org/news/manipulating-arrays-in-javascript/
