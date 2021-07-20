@@ -4,8 +4,14 @@ Basic Javascript for Banner
 ## Access HTML Dom
 ```Javascript
 var box = document.getElementById('box')
-or
+
 var box = document.querySelector('#box')
+
+var boxs = document.querySelectorAll('.box')
+
+boxs.forEach(function (box) {
+  console.log(box)
+})
 ```
 
 ## Set style to to HTML Dom
