@@ -38,6 +38,7 @@ window.addEventListener('launch-rocket', function (e) {
 })
 ```
 ## Handle class
+https://developer.mozilla.org/en-US/docs/Web/API/Element/classList
 ```Javascript
 var box = document.querySelector('#box')
 
