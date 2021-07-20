@@ -1,2 +1,17 @@
 # banner-js-basic
 Basic Javascript for Banner
+
+## Access HTML Dom
+```Javascript
+var box = document.getElementById('box')
+or
+var box = document.querySelector('#box')
+```
+
+## Set style to to HTML Dom
+```Javascript
+// Set width = 400, height = 400, background = red
+box.style.width = '400px'
+box.style.height = '400px'
+box.style.backgroundColor = 'red'
+```
