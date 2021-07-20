@@ -60,7 +60,7 @@ if (box.classList.contains('bg-red')) {
 
 ## GET data from external source
 ```Javascript
-// Old way
+// Old school way
 var req = new XMLHttpRequest()
 req.open('GET', '/my/url', true);
 req.onload = function () {
@@ -78,4 +78,24 @@ req.send()
 fetch('http://example.com/movies.json')
   .then(response => response.json())
   .then(data => console.log(data));
+```
+
+## POST data to external source
+```Javascript
+// Old school way
+var request = new XMLHttpRequest();
+request.open('POST', '/my/url', true);
+request.setRequestHeader('Content-Type', 'application/x-www-form-urlencoded; charset=UTF-8');
+request.send(data);
+
+// Fetch API way
+fetch('https://jsonplaceholder.typicode.com/posts', {
+  method: 'post'
+})
+.then(function (res) {
+  return res.json()
+})
+.then(function (data) {
+  console.log(data)
+})
 ```
