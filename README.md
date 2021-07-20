@@ -18,3 +18,6 @@ https://github.com/zupaazhai/banner-js-basic/blob/main/array.md
 
 ## Date
 https://github.com/zupaazhai/banner-js-basic/blob/main/date.md
+
+## Cookie & Localstorage
+https://github.com/zupaazhai/banner-js-basic/blob/main/cookie-localstorage.md
