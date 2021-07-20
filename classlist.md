@@ -1,3 +1,5 @@
+## Handle class
+```Javascript
 var box = document.querySelector('#box')
 
 // Add class name
@@ -12,3 +14,5 @@ box.classList.remove('bg-red')
 if (box.classList.contains('bg-red')) {
   ....
 }
+```
+https://developer.mozilla.org/en-US/docs/Web/API/Element/classList
