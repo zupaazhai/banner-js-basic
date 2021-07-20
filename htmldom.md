@@ -1,3 +1,4 @@
+```Javascript
 // Access by getElementById
 var box = document.getElementById('box')
 
@@ -10,3 +11,4 @@ var boxs = document.querySelectorAll('.box')
 boxs.forEach(function (box) {
   console.log(box)
 })
+```
