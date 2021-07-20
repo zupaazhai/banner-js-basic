@@ -99,3 +99,16 @@ fetch('https://jsonplaceholder.typicode.com/posts', {
   console.log(data)
 })
 ```
+
+## Array manipulation
+### .filter
+```Javascript
+var emojies = ['😃', '❤️', '🍿', '🚸']
+
+var heart = emojies.filter(function (emoji) {
+  return emoji == '❤️'
+})
+
+// heart = ['❤️']
+
+```
