@@ -112,3 +112,14 @@ var heart = emojies.filter(function (emoji) {
 // heart = ['❤️']
 
 ```
+### .map
+```Javascript
+var emojies = ['😃', '❤️', '🍿', '🚸']
+
+emojies = emojies.map(function (emoji) {
+  return emoji + '😇'
+})
+
+// emojies = [ "😃😇", "❤️😇", "🍿😇", "🚸😇" ]
+
+```
