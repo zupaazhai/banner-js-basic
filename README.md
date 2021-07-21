@@ -4,6 +4,9 @@ Basic Javascript for Banner
 ## Access HTML DOM
 https://github.com/zupaazhai/banner-js-basic/blob/main/htmldom.md
 
+## Event
+https://github.com/zupaazhai/banner-js-basic/blob/main/event.md
+
 ## Custom Event
 https://github.com/zupaazhai/banner-js-basic/blob/main/custom-event.md
 
